@@ -53,6 +53,7 @@ cd Galactis
 
 1. Vá em **Settings > Assemble all files in directory** (marque esta opção)
 2. Configure o **Run Speed** como **"Maximum"** (no interaction)
+3. Caso o jogo este lento na sua máquina, altere os valores de `# Game timing` no arquivo de configuração `engine/config.asm`
 
 ### Passo 4: Configurar as ferramentas MMIO
 
@@ -60,6 +61,7 @@ Você precisa abrir duas ferramentas do menu **Tools**:
 
 #### 4.1 Keyboard and Display MMIO Simulator
 - Vá em **Tools > Keyboard and Display MMIO Simulator**
+- Conecte ao MIPS clicando em **Connect to MIPS** e selecione o `Delay Length` como `1`
 - Mantenha a janela aberta
 
 #### 4.2 Bitmap Display
