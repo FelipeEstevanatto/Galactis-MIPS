@@ -1,5 +1,6 @@
 .data
 	# 3x5 digits, rows packed as 3-bit values (0..7)
+	# Each byte represents a row, with bits from left to right (7 => 111 = all pixels on)
 	digits3x5:
 		# 0
 		.byte 7,5,5,5,7

@@ -388,7 +388,6 @@ update_enemies:
 	addiu $t1, $t1, -1
 	sw   $t1, 0($t0)
 ue_cooldown_done:
-
 	# Only move on selected frames
 	la   $t0, frame_counter
 	lw   $t1, 0($t0)
@@ -588,7 +587,6 @@ mee_skip_old_player:
 	move $a1, $t7
 	jal  draw_bomb_sprite
 mee_skip_new_bomb:
-
 	# If player overlaps new tile, draw player on top
 	lw   $t6, player_x
 	lw   $t7, player_y
