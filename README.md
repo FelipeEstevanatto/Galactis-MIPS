@@ -2,7 +2,8 @@
 
 Galactis é um jogo estilo Bomberman desenvolvido em MIPS Assembly, utilizando Memory-Mapped I/O para teclado e display bitmap do simulador MARS 4.5.
 
-<img width="512" height="512" alt="Menu do Galactis" src="https://github.com/user-attachments/assets/112f7393-be6b-41ac-b5d5-e8f8eea41de4" />
+<img width="512" height="512" alt="Menu do Galactis" src="./Menu_Galactis.png" />
+<img width="512" height="512" alt="Level 1 do Galactis" src="./Level_1.png" />
 
 > 📖 Para informações técnicas detalhadas sobre arquitetura e implementação, consulte o [README Técnico](README_TECHNICAL.md).
 
